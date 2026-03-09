@@ -1,0 +1,26 @@
+.navbar {
+  background-color: rgb(190, 194, 194);
+  font-size: 40px;
+  padding: 20px;
+  justify-content: space-between;
+  border-radius: 20px;
+  text-decoration: none;
+  gap: 30px;
+}
+.mybody {
+  padding: 50px;
+}
+.mylists {
+  border-radius: 30px;
+  font-size: 15px;
+  font-style: oblique;
+  background-color: rgb(84, 81, 250);
+}
+a {
+  text-decoration: none;
+}
+.mylogo {
+  width: 200px;
+  height: auto;
+  margin-right: 50px;
+}
