@@ -1,11 +1,14 @@
 .navbar {
-  background-color: rgb(190, 194, 194);
-  font-size: 40px;
+  background-color: rgba(253, 249, 249, 0.884);
+  font-size: 30px;
   padding: 20px;
   justify-content: space-between;
   border-radius: 20px;
   text-decoration: none;
   gap: 30px;
+  text-align: center;
+  margin: 25px;
+  color: rgb(41, 41, 250);
 }
 .mybody {
   padding: 50px;
@@ -14,13 +17,41 @@
   border-radius: 30px;
   font-size: 15px;
   font-style: oblique;
-  background-color: rgb(84, 81, 250);
+  background-color: rgb(154, 154, 158);
 }
 a {
   text-decoration: none;
 }
 .mylogo {
-  width: 200px;
-  height: auto;
-  margin-right: 50px;
+  width: auto;
+  height: 100px;
+  margin-right: 300px;
+  align-content: center;
+  margin-bottom:  10px;
+}
+.home {
+  color: rgb(244, 244, 248);
+}
+.myl {
+  margin: 15px 100px;
+  margin-top: auto;
+}
+.hero {
+  background-image: url(Images/img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hi{
+  margin: 15px 100px ;
+}
+@media (max-width: 768px){
+  .navbar {
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+.navbar{
+  display: none;
+}
+
 }
